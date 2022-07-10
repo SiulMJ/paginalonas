@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>registro</title>
+    <link rel="stylesheet" type="text/css" href="estilo/registro.css">
+    <script src="js/registro.js"></script>
+</head>
+<body>
+    <div id="contenido">
+        <div id="centrar">
+            <div id="registro">
+                <h2>Registrese</h2>
+  <form action="validacion_registro.php" method="POST" onsubmit="return registrojs();">
+    
+    <input type="text" name="names" id="names" placeholder="escriba su nombre">
+    <p>
+        <input type="password" name="pass1" id="pass1" placeholder="escriba su contraseña">
+        <p>
+            <input type="password" name="pass2" id="pass2" placeholder="confirme su contraseña">
+            <p>
+            <input type="number" name="telefono" id="telefono" placeholder="telefono" min="0" max="9999999999">
+<p>
+     <input type="email" name="cor" id="cor" placeholder="escriba su correo">
+     <p>
+                <input type="submit" name="Ingresar" id="Ingresar">
+                <a href="index.html">volver</a> 
+  </form>
+            </div>          
+        </div>
+    </div>
+
+</body>
+</html>

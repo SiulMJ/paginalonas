@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@700&display=swap');
+
+table {
+   width: 100%;
+   border: 1px solid #000;
+   background-color: #f5ebff;
+}
+th, td {
+   width: 10%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+caption {
+   padding: 0.3em;
+}
+
+.espacio1{
+   color: #ed5002;
+}
+
+body{
+   font-size: 16px;
+   font-family: 'Krub',sans-serif;
+   background-color: #DFE9F3;
+}

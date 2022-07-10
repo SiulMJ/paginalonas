@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@700&display=swap');
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Krub',sans-serif;
+    background-color: #DFE9F3;
+}
+
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+@media (min-width: 756px) {
+    .contenedor{
+        text-align: center;
+    }
+}
+
+.sub{
+    text-align: center;
+}
+
+.titulo span{
+    font-size: 16px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+
+.servicios p{
+    line-height: 2;
+}
+
+h3 {
+  color: #5e2129;
+}
+
+.sombra{
+-webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+-moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+background-color: #757575;
+padding: 2rem;
+border-radius: 2rem;
+}
+
+.cortar {
+    padding: 1rem;
+}

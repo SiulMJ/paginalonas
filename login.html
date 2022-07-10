@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Inicie sesion </title>
+	<link rel="stylesheet"  href="estilo/registro.css">
+    </head>
+<body>
+<div id="contenido">
+    <div id="centrar">
+        <div id="registro">
+            <h2>Inicie sesion </h2>
+
+    <form action="validacion_login.php" method="POST" onsubmit="return loginjs()">
+
+        <input type="text" name="name" placeholder="escribe tu usuario">
+<p>
+       <input type="password" name="pass" placeholder="escribe tu contraseña">
+<p>        
+        <input type="submit" name="Ingresar" id="Ingresar"> 
+<p>
+    <a href="registro.html">¿No tiene un usuario?</a>  
+    </form>
+        </div>
+    </div>
+</div>
+ 
+ <script src="js/login.js"></script>
+</body>
+</html>
