@@ -15,7 +15,7 @@ html{
 
 body{
 	font-size: 16px;
-	font-family: 'Krub',sans-serif;
+	font-family: Open sans;
 	background-color: var(--grisclaro);
 }
 
@@ -166,5 +166,5 @@ border-radius: 2rem;
 
 footer{
     text-align: center;
-    font-family:'Grandstander', cursive;    
+    font-family:Open sans;    
 }
