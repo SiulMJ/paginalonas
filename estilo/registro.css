@@ -19,13 +19,13 @@ body{
   input{
 margin: 10px;
 padding: 3px;
-font-family: 'Krub',sans-serif;
+font-family: Open sans;
 font-size: 14px;
 
 }
 
 h1,h2,h4{
-font-family: 'Krub',sans-serif;
+font-family: Open sans;
 }
 
 #contenido{
@@ -52,7 +52,7 @@ font-family: 'Krub',sans-serif;
 select{
 margin: 12px;
 padding: 3px;
-font-family: 'Krub',sans-serif;
+font-family: Open sans;
 font-size: 14px;
 }
 
@@ -65,6 +65,6 @@ font-size: 14px;
 }
 
 #registro input{
-  font-family: 'Krub',sans-serif;
+  font-family: Open sans;
 }
 
